@@ -33,6 +33,6 @@ Aplicativo mobile desenvolvido como **trabalho de extensão da Faculdade Estáci
 ### 🔧 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/mailton/karolmilly-app.git
+git clone https://github.com/mailtoncorrea/app-karolmilly.git
 cd karolmilly-app
 ```
