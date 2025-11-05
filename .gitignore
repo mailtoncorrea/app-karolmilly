@@ -1,0 +1,24 @@
+# Dependências (npm/yarn)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Pastas temporárias e caches
+.expo/
+.expo-shared/
+dist/
+build/
+android/app/build/
+ios/build/
+web-build/
+
+# Configurações locais
+.env
+*.local
+*.env
+*.sqlite
+*.db
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db

@@ -47,7 +47,6 @@ export default function LoginScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Karol Milly</Text>
-
       <TextInput
         style={styles.input}
         placeholder="Usuário"
@@ -55,7 +54,6 @@ export default function LoginScreen({ navigation }) {
         onChangeText={setUsuario}
         autoCapitalize="none"
       />
-
       <TextInput
         style={styles.input}
         placeholder="Senha"
@@ -63,7 +61,6 @@ export default function LoginScreen({ navigation }) {
         value={senha}
         onChangeText={setSenha}
       />
-
       <TouchableOpacity
         style={styles.button}
         onPress={handleLogin}

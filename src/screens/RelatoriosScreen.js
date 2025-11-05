@@ -20,7 +20,7 @@ const ListHeader = ({ nomeCliente, setNomeCliente, handleSearch, loading }) => (
     <View style={styles.searchRow}>
       <TextInput
         style={styles.input}
-        placeholder="Ex: fullname"
+        placeholder="Ex: Maria do Socorro"
         value={nomeCliente}
         onChangeText={setNomeCliente}
         autoCorrect={false}

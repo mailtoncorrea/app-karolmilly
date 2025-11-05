@@ -9,8 +9,6 @@ import {
   StyleSheet,
 } from "react-native";
 
-// --- Componente de Cabeçalho ESTÁVEL (Mova este bloco para FORA do VendasScreen) ---
-// Ele agora recebe todas as props que precisa para ser estável.
 const ListHeader = ({
   clienteNome,
   setClienteNome,

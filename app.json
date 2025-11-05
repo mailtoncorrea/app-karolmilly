@@ -1,9 +1,14 @@
 {
   "expo": {
+    "name": "karolmillyapp",
+    "slug": "karolmilly-app",
     "extra": {
       "eas": {
         "projectId": "767e202c-6a58-4b94-a3af-31a7f5abad11"
       }
+    },
+    "android": {
+      "package": "com.mailton.karolmillyapp"
     }
   }
 }

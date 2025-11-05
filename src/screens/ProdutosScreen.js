@@ -10,9 +10,6 @@ import {
   TouchableOpacity,
 } from "react-native";
 
-// =================================================================
-// 1. COMPONENTE DE FORMULÁRIO (MOVIDO PARA FORA PARA ESTABILIDADE)
-// =================================================================
 const FormularioProduto = ({ onSave, produtoParaEditar, onCancel }) => {
   const [nome, setNome] = useState(
     produtoParaEditar ? produtoParaEditar.nome : ""

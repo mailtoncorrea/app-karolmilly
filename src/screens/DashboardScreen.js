@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, TouchableOpacity, StyleSheet, Image } from "react-native";
 
 // Importe a sua logo. Ajuste o caminho se for diferente.
-import LogoBackground from "../assets/image_logo.png";
+import LogoBackground from "../assets/image_logo.jpg";
 
 export default function DashboardScreen({ navigation }) {
   return (
